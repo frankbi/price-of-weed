@@ -6,7 +6,7 @@ import re
 import csv
 import time
 
-c = csv.writer(open('weed_prices/data/weedprices' + time.strftime("%d%m%Y") + '.csv', 'wb'), quoting = csv.QUOTE_ALL)
+c = csv.writer(open('data/weedprices' + time.strftime("%d%m%Y") + '.csv', 'wb'), quoting = csv.QUOTE_ALL)
 c.writerow(['State','HighQ','HighQN','MedQ','MedQN','LowQ','LowQN'])
 base_url = 'http://www.priceofweed.com/prices/United-States/'
 
@@ -33,7 +33,7 @@ def scrape(state):
 	}
 	c.writerow([d['state'],d['highq'],d['highq_n'],d['mediumq'],d['mediumq_n'],d['lowq'],d['lowq_n']])
 
-with open('weed_prices/states.csv', 'r') as states:
+with open('states.csv', 'r') as states:
 	states_read = csv.reader(states, delimiter=',', quotechar='"')
 	for row in states_read:
 		scrape(row[0])
