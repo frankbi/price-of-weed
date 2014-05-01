@@ -1,0 +1,28 @@
+{
+	"Alabama": {
+		"avg_price_total": "",
+		"sub_total": "",
+		"avg_price_high_q": "",
+		"sub_total_high_q": "",
+		"avg_price_med_q": "",
+		"sub_total_med_q": "",
+		"avg_price_low_q": "",
+		"sub_total_low_q": "",
+		"date": {
+			"2013": {
+				"12": {
+					"31": {
+						"avg_price": "",
+						"sub": "",
+						"avg_price_high_q": "",
+						"sub_high_q": "",
+						"avg_price_med_q": "",
+						"sub_med_q": "",
+						"avg_price_low_q": "",
+						"sub_low_q": ""
+					}
+				}
+			}
+		}
+	}
+}
