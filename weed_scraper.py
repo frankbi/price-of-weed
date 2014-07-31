@@ -6,14 +6,19 @@ import re
 import csv
 import time
 
-c = csv.writer(open('data/weedprices' + time.strftime("%d%m%Y") + '.csv', 'wb'), quoting = csv.QUOTE_ALL)
-c.writerow(['State','HighQ','HighQN','MedQ','MedQN','LowQ','LowQN'])
-base_url = 'http://www.priceofweed.com/prices/United-States/'
+def init():
+	csvfile = csv.writer(open('data/weedprices' + time.strftime("%d%m%Y") + '.csv', 'wb'), quoting = csv.QUOTE_ALL)
+	csvfile.writerow(['State','HighQ','HighQN','MedQ','MedQN','LowQ','LowQN'])
+	base_url = 'http://www.priceofweed.com/prices/United-States/'
 
+	with open('states.csv', 'r') as states:
+		states_read = csv.reader(states, delimiter=',', quotechar='"')
+		for row in states_read:
+			scrape(row[0], base_url, csvfile)
 
-def scrape(state):
+def scrape(state, base, c):
 
-	r = requests.post(base_url + state + '.html')
+	r = requests.post(base + state + '.html')
 	soup = BeautifulSoup(r.text)
 
 	title = soup.findAll("title")
@@ -35,7 +40,5 @@ def scrape(state):
 def clean(num):
 	return str(num.get_text()).replace("$", "")
 
-with open('states.csv', 'r') as states:
-	states_read = csv.reader(states, delimiter=',', quotechar='"')
-	for row in states_read:
-		scrape(row[0])
+if __name__ == "__main__":
+	init()
