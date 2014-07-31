@@ -1,4 +1,4 @@
-#/usr/bin/env python2.5
+#/usr/bin/python
 
 from bs4 import BeautifulSoup
 import requests
@@ -22,16 +22,18 @@ def scrape(state):
 	content = soup.findAll("table", {"class":"avg_box"})
 	cell = content[0].findAll("td")
 
-	d = {
-		'state' : state,
-		'highq' : cell[4].get_text(),
-		'highq_n' : cell[5].get_text(),
-		'mediumq' : cell[7].get_text(),
-		'mediumq_n' : cell[8].get_text(),
-		'lowq' : cell[10].get_text(),
-		'lowq_n' : cell[11].get_text()
-	}
-	c.writerow([d['state'],d['highq'],d['highq_n'],d['mediumq'],d['mediumq_n'],d['lowq'],d['lowq_n']])
+	c.writerow([
+		state,
+		clean(cell[4]),
+		clean(cell[5]),
+		clean(cell[7]),
+		clean(cell[8]),
+		clean(cell[10]),
+		clean(cell[11])
+	])
+
+def clean(num):
+	return str(num.get_text()).replace("$", "")
 
 with open('states.csv', 'r') as states:
 	states_read = csv.reader(states, delimiter=',', quotechar='"')
