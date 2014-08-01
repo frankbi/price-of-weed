@@ -14,9 +14,16 @@ def init():
 			"dateAbbrev": time.strftime("%m-%d-%Y"),
 			"date": time.strftime("%B %d, %Y")
 		},
+		"summary": {
+			"high": get_summ(csvreader, 1)
+		},
 		"data": get_row(csvreader)[1:]
 	})
 	print json.dumps(data, indent=2)
+
+def get_summ(csv, index):
+	for row in csv:
+		print row
 
 def get_row(csv):
 	arr = []
