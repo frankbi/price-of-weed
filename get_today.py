@@ -14,9 +14,46 @@ def init():
 			"dateAbbrev": time.strftime("%m-%d-%Y"),
 			"date": time.strftime("%B %d, %Y")
 		},
+		"summary": {
+			"high": getSumm(csvreader, 3),
+			"medium": {
+				"high": 123.12,
+				"medium": 231.21,
+				"low": 12.32
+			},
+			"low": getSumm(csvreader, 5)
+		},
 		"data": get_row(csvreader)[1:]
 	})
 	print json.dumps(data, indent=2)
+
+
+def getSumm(csv, index):
+	print csv
+'''
+	array = []
+	for row in csv:
+		try:
+			array.append(float(row[index]))
+		except ValueError:
+			pass
+	array.sort()
+
+	print array
+
+	return {
+		"min": array[0],
+		"max": array[-1],
+		"avg": getAvg(array)
+	}
+'''
+
+def getAvg(arr):
+	summation = 0
+	for i in arr:
+		summation += i
+	return summation / len(arr)
+
 
 def get_row(csv):
 	arr = []
