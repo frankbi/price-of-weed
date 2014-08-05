@@ -15,13 +15,7 @@ def init():
 			"date": time.strftime("%B %d, %Y")
 		},
 		"summary": {
-			"high": getSumm(csvreader, 3),
-			"medium": {
-				"high": 123.12,
-				"medium": 231.21,
-				"low": 12.32
-			},
-			"low": getSumm(csvreader, 5)
+			"high": get_summ(csvreader, 1)
 		},
 		"data": get_row(csvreader)[1:]
 	})
@@ -53,7 +47,6 @@ def getAvg(arr):
 	for i in arr:
 		summation += i
 	return summation / len(arr)
-
 
 def get_row(csv):
 	arr = []
