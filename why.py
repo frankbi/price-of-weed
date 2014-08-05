@@ -1,12 +1,24 @@
 #/usr/bin/env python
 
-l1 = [1, 3, 5, 7, 9, 11]
-l2 = [2, 4, 6, 8, 10, 12]
 
-def get_min(l):
-	l.sort()
-	return l[0]
 
-print get_min(l1)
+l = [
+	['0','32'],
+	['1','11'],
+	['2','78'],
+	['3','111'],
+	['4','783']
+]
 
-print get_min(l2)
+def get_min(l, i):
+	data =[]
+	for row in l:
+		data.append(row[i])
+	return {
+		"min": data[0],
+		"max": data[-1]
+	}
+
+print get_min(l, 0)
+
+print get_min(l, 1)

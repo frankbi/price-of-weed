@@ -20,7 +20,6 @@ def init():
 	})
 	print json.dumps(data, indent=2)
 
-
 def get_row(csv):
 	arr = []
 	for row in csv:
