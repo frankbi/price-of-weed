@@ -16,9 +16,35 @@ def init():
 			"dateAbbrev": time.strftime("%m-%d-%Y"),
 			"date": time.strftime("%B %d, %Y")
 		},
+		"summary": {
+			"high": get_summ(filename, 1),
+			"medium": get_summ(filename, 3),
+			"low": get_summ(filename, 5)
+		},
 		"data": get_row(csvreader)[1:]
 	})
 	print json.dumps(data, indent=2)
+
+def get_summ(filename, index):
+	arr = []
+	f = open(filename, "r")
+	reader = csv.reader(f, delimiter=",")
+	for row in reader:
+		try:
+			arr.append(float(row[index]))
+		except ValueError:
+			pass
+	return {
+		"min": min(arr),
+		"max": max(arr),
+		"avg": avg(arr)
+	}
+
+def avg(arr):
+	summation = 0
+	for i in arr:
+		summation += i
+	return "%.2f" % (summation / len(arr))
 
 def get_row(csv):
 	arr = []
