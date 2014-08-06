@@ -13,4 +13,4 @@ Scrapes PriceofWeed.com every six hours.
 ### Generate daily json
 ```
 0 12 * * * bash /home/ubuntu/price-of-weed/daily.sh
-'''
+```
