@@ -6,7 +6,7 @@ yearmonthday=$(date -d "yesterday 13:00 " '+%Y-%m-%d')
 # pull before running script
 git pull
 
-python weed_scraper.python
+python weed_scraper.py
 
 git add -A
 
