@@ -1,0 +1,469 @@
+[
+  {
+    "info": {
+      "date": "July 31, 2014", 
+      "dateAbbrev": "07-31-2014"
+    }, 
+    "data": [
+      {
+        "highQ": "$340.37", 
+        "lowQN": "158", 
+        "medQN": "1236", 
+        "highQN": "1378", 
+        "state": "Alabama", 
+        "medQ": "$203.51", 
+        "lowQ": "$147.11"
+      }, 
+      {
+        "highQ": "$288.34", 
+        "lowQN": "33", 
+        "medQN": "398", 
+        "highQN": "324", 
+        "state": "Alaska", 
+        "medQ": "$260.46", 
+        "lowQ": "$403.33"
+      }, 
+      {
+        "highQ": "$300.88", 
+        "lowQN": "278", 
+        "medQN": "2109", 
+        "highQN": "2381", 
+        "state": "Arizona", 
+        "medQ": "$209.07", 
+        "lowQ": "$186.06"
+      }, 
+      {
+        "highQ": "$348.99", 
+        "lowQN": "134", 
+        "medQN": "714", 
+        "highQN": "741", 
+        "state": "Arkansas", 
+        "medQ": "$181.72", 
+        "lowQ": "$126.2"
+      }, 
+      {
+        "highQ": "$245.4", 
+        "lowQN": "975", 
+        "medQN": "16628", 
+        "highQN": "14927", 
+        "state": "California", 
+        "medQ": "$191.61", 
+        "lowQ": "$188.12"
+      }, 
+      {
+        "highQ": "$238.14", 
+        "lowQN": "166", 
+        "medQN": "2404", 
+        "highQN": "2796", 
+        "state": "Colorado", 
+        "medQ": "$196.74", 
+        "lowQ": "$227.49"
+      }, 
+      {
+        "highQ": "$341.89", 
+        "lowQN": "105", 
+        "medQN": "1730", 
+        "highQN": "1599", 
+        "state": "Connecticut", 
+        "medQ": "$272.98", 
+        "lowQ": "$254.44"
+      }, 
+      {
+        "highQ": "$367.76", 
+        "lowQN": "39", 
+        "medQN": "373", 
+        "highQN": "438", 
+        "state": "Delaware", 
+        "medQ": "$230.16", 
+        "lowQ": "$204.86"
+      }, 
+      {
+        "highQ": "$346.37", 
+        "lowQN": "47", 
+        "medQN": "485", 
+        "highQN": "567", 
+        "state": "District of Columbia", 
+        "medQ": "$287.5", 
+        "lowQ": "$209.83"
+      }, 
+      {
+        "highQ": "$301.79", 
+        "lowQN": "629", 
+        "medQN": "7045", 
+        "highQN": "8394", 
+        "state": "Florida", 
+        "medQ": "$217.71", 
+        "lowQ": "$151.58"
+      }, 
+      {
+        "highQ": "$326.75", 
+        "lowQN": "278", 
+        "medQN": "2980", 
+        "highQN": "3936", 
+        "state": "Georgia", 
+        "medQ": "$216.48", 
+        "lowQ": "$145.62"
+      }, 
+      {
+        "highQ": "$309.64", 
+        "lowQN": "29", 
+        "medQN": "455", 
+        "highQN": "408", 
+        "state": "Hawaii", 
+        "medQ": "$265.58", 
+        "lowQ": "$174.23"
+      }, 
+      {
+        "highQ": "$276.35", 
+        "lowQN": "31", 
+        "medQN": "580", 
+        "highQN": "390", 
+        "state": "Idaho", 
+        "medQ": "$249.07", 
+        "lowQ": "$165.19"
+      }, 
+      {
+        "highQ": "$355.84", 
+        "lowQN": "408", 
+        "medQN": "4712", 
+        "highQN": "4992", 
+        "state": "Illinois", 
+        "medQ": "$283.29", 
+        "lowQ": "$194"
+      }, 
+      {
+        "highQ": "$332.89", 
+        "lowQN": "295", 
+        "medQN": "1940", 
+        "highQN": "2117", 
+        "state": "Indiana", 
+        "medQ": "$211.13", 
+        "lowQ": "$154.32"
+      }, 
+      {
+        "highQ": "$366.98", 
+        "lowQN": "112", 
+        "medQN": "876", 
+        "highQN": "863", 
+        "state": "Iowa", 
+        "medQ": "$290.37", 
+        "lowQ": "$249.3"
+      }, 
+      {
+        "highQ": "$350.48", 
+        "lowQN": "130", 
+        "medQN": "855", 
+        "highQN": "1036", 
+        "state": "Kansas", 
+        "medQ": "$262.86", 
+        "lowQ": "$121.73"
+      }, 
+      {
+        "highQ": "$338.59", 
+        "lowQN": "164", 
+        "medQN": "1298", 
+        "highQN": "1304", 
+        "state": "Kentucky", 
+        "medQ": "$182.21", 
+        "lowQ": "$123.85"
+      }, 
+      {
+        "highQ": "$366.72", 
+        "lowQN": "285", 
+        "medQN": "1172", 
+        "highQN": "1363", 
+        "state": "Louisiana", 
+        "medQ": "$244.42", 
+        "lowQ": "$142.66"
+      }, 
+      {
+        "highQ": "$317.67", 
+        "lowQN": "59", 
+        "medQN": "564", 
+        "highQN": "551", 
+        "state": "Maine", 
+        "medQ": "$246.02", 
+        "lowQ": "$272.95"
+      }, 
+      {
+        "highQ": "$266.95", 
+        "lowQN": "29", 
+        "medQN": "330", 
+        "highQN": "679", 
+        "state": "Montana", 
+        "medQ": "$242.91", 
+        "lowQ": "$588.04"
+      }, 
+      {
+        "highQ": "$341.27", 
+        "lowQN": "73", 
+        "medQN": "625", 
+        "highQN": "630", 
+        "state": "Nebraska", 
+        "medQ": "$250.49", 
+        "lowQ": "$133.37"
+      }, 
+      {
+        "highQ": "$269.12", 
+        "lowQN": "75", 
+        "medQN": "1233", 
+        "highQN": "1103", 
+        "state": "Nevada", 
+        "medQ": "$229.56", 
+        "lowQ": "$235.3"
+      }, 
+      {
+        "highQ": "$358.96", 
+        "lowQN": "46", 
+        "medQN": "577", 
+        "highQN": "526", 
+        "state": "New Hampshire", 
+        "medQ": "$290.65", 
+        "lowQ": "$617.09"
+      }, 
+      {
+        "highQ": "$349.59", 
+        "lowQN": "234", 
+        "medQN": "3617", 
+        "highQN": "2736", 
+        "state": "New Jersey", 
+        "medQ": "$288.26", 
+        "lowQ": "$227.02"
+      }, 
+      {
+        "highQ": "$289.74", 
+        "lowQN": "58", 
+        "medQN": "566", 
+        "highQN": "696", 
+        "state": "New Mexico", 
+        "medQ": "$201.4", 
+        "lowQ": "$94.88"
+      }, 
+      {
+        "highQ": "$347.28", 
+        "lowQN": "563", 
+        "medQN": "7563", 
+        "highQN": "7028", 
+        "state": "New York", 
+        "medQ": "$265.54", 
+        "lowQ": "$208.24"
+      }, 
+      {
+        "highQ": "$349.61", 
+        "lowQN": "277", 
+        "medQN": "2575", 
+        "highQN": "3589", 
+        "state": "North Carolina", 
+        "medQ": "$245.3", 
+        "lowQ": "$149.22"
+      }, 
+      {
+        "highQ": "$405.04", 
+        "lowQN": "21", 
+        "medQN": "270", 
+        "highQN": "185", 
+        "state": "North Dakota", 
+        "medQ": "$364.95", 
+        "lowQ": "$336.51"
+      }, 
+      {
+        "highQ": "$334.89", 
+        "lowQN": "499", 
+        "medQN": "3729", 
+        "highQN": "3791", 
+        "state": "Ohio", 
+        "medQ": "$217.5", 
+        "lowQ": "$165.61"
+      }, 
+      {
+        "highQ": "$364.99", 
+        "lowQN": "168", 
+        "medQN": "920", 
+        "highQN": "942", 
+        "state": "Oklahoma", 
+        "medQ": "$233.22", 
+        "lowQ": "$119.97"
+      }, 
+      {
+        "highQ": "$208.78", 
+        "lowQN": "81", 
+        "medQN": "1712", 
+        "highQN": "1962", 
+        "state": "Oregon", 
+        "medQ": "$183.92", 
+        "lowQ": "$175.2"
+      }, 
+      {
+        "highQ": "$370.48", 
+        "lowQN": "178", 
+        "medQN": "2096", 
+        "highQN": "2518", 
+        "state": "Maryland", 
+        "medQ": "$252.15", 
+        "lowQ": "$187.53"
+      }, 
+      {
+        "highQ": "$350.54", 
+        "lowQN": "265", 
+        "medQN": "3206", 
+        "highQN": "3610", 
+        "state": "Massachusetts", 
+        "medQ": "$289.21", 
+        "lowQ": "$221.53"
+      }, 
+      {
+        "highQ": "$291.97", 
+        "lowQN": "270", 
+        "medQN": "3251", 
+        "highQN": "3637", 
+        "state": "Michigan", 
+        "medQ": "$275.54", 
+        "lowQ": "$266.25"
+      }, 
+      {
+        "highQ": "$357.8", 
+        "lowQN": "114", 
+        "medQN": "2103", 
+        "highQN": "2115", 
+        "state": "Minnesota", 
+        "medQ": "$276.34", 
+        "lowQ": "$184.7"
+      }, 
+      {
+        "highQ": "$335.65", 
+        "lowQN": "128", 
+        "medQN": "467", 
+        "highQN": "534", 
+        "state": "Mississippi", 
+        "medQ": "$145.64", 
+        "lowQ": "$146.12"
+      }, 
+      {
+        "highQ": "$357.66", 
+        "lowQN": "271", 
+        "medQN": "1796", 
+        "highQN": "1974", 
+        "state": "Missouri", 
+        "medQ": "$245.3", 
+        "lowQ": "$145.81"
+      }, 
+      {
+        "highQ": "$366.21", 
+        "lowQN": "457", 
+        "medQN": "4259", 
+        "highQN": "4888", 
+        "state": "Pennsylvania", 
+        "medQ": "$267.43", 
+        "lowQ": "$193.59"
+      }, 
+      {
+        "highQ": "$322.78", 
+        "lowQN": "40", 
+        "medQN": "461", 
+        "highQN": "637", 
+        "state": "Rhode Island", 
+        "medQ": "$257.87", 
+        "lowQ": "$199.96"
+      }, 
+      {
+        "highQ": "$342.34", 
+        "lowQN": "147", 
+        "medQN": "1209", 
+        "highQN": "1476", 
+        "state": "South Carolina", 
+        "medQ": "$201.69", 
+        "lowQ": "$186.76"
+      }, 
+      {
+        "highQ": "$377.24", 
+        "lowQN": "22", 
+        "medQN": "223", 
+        "highQN": "193", 
+        "state": "South Dakota", 
+        "medQ": "$351.5", 
+        "lowQ": "$123.94"
+      }, 
+      {
+        "highQ": "$353.44", 
+        "lowQN": "191", 
+        "medQN": "1631", 
+        "highQN": "1981", 
+        "state": "Tennessee", 
+        "medQ": "$225.62", 
+        "lowQ": "$184.16"
+      }, 
+      {
+        "highQ": "$337.44", 
+        "lowQN": "1051", 
+        "medQN": "7472", 
+        "highQN": "7426", 
+        "state": "Texas", 
+        "medQ": "$233.27", 
+        "lowQ": "$143.87"
+      }, 
+      {
+        "highQ": "$288.12", 
+        "lowQN": "57", 
+        "medQN": "911", 
+        "highQN": "855", 
+        "state": "Utah", 
+        "medQ": "$238.33", 
+        "lowQ": "$207.35"
+      }, 
+      {
+        "highQ": "$375.27", 
+        "lowQN": "27", 
+        "medQN": "307", 
+        "highQN": "328", 
+        "state": "Vermont", 
+        "medQ": "$317.09", 
+        "lowQ": "$190.36"
+      }, 
+      {
+        "highQ": "$367.72", 
+        "lowQN": "254", 
+        "medQN": "2614", 
+        "highQN": "3074", 
+        "state": "Virginia", 
+        "medQ": "$291.97", 
+        "lowQ": "$224.71"
+      }, 
+      {
+        "highQ": "$233", 
+        "lowQN": "136", 
+        "medQN": "3082", 
+        "highQN": "2973", 
+        "state": "Washington", 
+        "medQ": "$190.1", 
+        "lowQ": "$138.47"
+      }, 
+      {
+        "highQ": "$354.37", 
+        "lowQN": "55", 
+        "medQN": "469", 
+        "highQN": "488", 
+        "state": "West Virginia", 
+        "medQ": "$214.93", 
+        "lowQ": "$145.37"
+      }, 
+      {
+        "highQ": "$353.18", 
+        "lowQN": "147", 
+        "medQN": "1855", 
+        "highQN": "1989", 
+        "state": "Wisconsin", 
+        "medQ": "$271.84", 
+        "lowQ": "$250.79"
+      }, 
+      {
+        "highQ": "$349.69", 
+        "lowQN": "12", 
+        "medQN": "165", 
+        "highQN": "115", 
+        "state": "Wyoming", 
+        "medQ": "$350.37", 
+        "lowQ": "$161.3"
+      }
+    ]
+  }
+]
