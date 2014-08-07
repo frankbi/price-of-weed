@@ -51,15 +51,14 @@ def to_float():
 				for index in row:
 					data_list.append(index)
 				csvfile_copy.append(data_list)
-			# print csvfile_copy
-			# write_row(csvfile_copy)
-			print csvfile_copy[0]
+			write_file(csvfile_copy, filename)
 
-def write_row(data):
-	csvfile = open("wtf_dang.csv", "wb")
+def write_file(data, filename):
+	csvfile = open(filename, "wb")
 	writer = csv.writer(csvfile, delimiter=",")
-	writer.writerow(data)
-
+	# writer.writerow(data)
+	for row in data:
+		writer.writerow(data)
 
 if __name__ == "__main__":
 	init()
